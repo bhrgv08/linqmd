@@ -117,29 +117,11 @@ section {
 		padding-left: 150px;
 	}
 
-	/* #sec1 .rating {
-		left: -80px;
-	} */
 	#sec1 .appbtn {
 		width: 280px;
 	}
   }
-@media screen and (max-width: 1083px) and (min-width: 768px) {
-	#sec1 .rating {
-		position: absolute;
-		left: 10px;
-	}
-	.ten {
-		margin-top: -40px;
-	}
-  }
 
-  /* @media only screen and (max-width: 1083px) and (min-width: 768px) {
-	#sec1 .star {
-	font-size: 10px;
-}
-  } */
-  
   
 #sec1 .star {
 	font-size: 30px;
@@ -194,17 +176,6 @@ section {
 	font-size: 0.8em;
 }
 
-/* #sec1 .iso-img {
-    position: absolute;
-    top: 6%;
-    bottom: 0;
-    right: 0;
-    left: auto;
-}
-
-#sec1 .iso-img img {
-    width: 100%;
-} */
 
 
 
