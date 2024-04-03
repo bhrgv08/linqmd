@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Owl-carousel for doctor Videos
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.docslider').owlCarousel({
     center: true,
     items:2,
     loop:true,
@@ -25,6 +25,22 @@ $(document).ready(function(){
         },
         0:{
           items:2,
+          // nav:true
+      }
+    }
+});
+  $('.dateslider').owlCarousel({
+    center: true,
+    items:2,
+    loop:true,
+    margin:15,
+    responsive:{
+        600:{
+          nav:true,
+            items:7
+        },
+        0:{
+          items:3,
           // nav:true
       }
     }
