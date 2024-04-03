@@ -120,6 +120,13 @@ section {
 	#sec1 .appbtn {
 		width: 280px;
 	}
+
+	#sec5 .searchBtn{
+	left: -90px !important;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+	}
   }
 @media screen and (max-width: 991px) {
 	.facilities {
@@ -328,6 +335,47 @@ ul .active {
 }
 
 
+#sec5 h2{
+	color: var(--c3);
+	font-weight: bolder;
+}
+
+#sec5 .search-wrapper{
+	background-color: var(--c3);
+	
+}
+
+#sec5 .searchBtn{
+	text-align: center;
+	background-color: var(--c3);
+	color: var(--c1);
+	font-weight: bolder;
+	position: relative;
+	border: 1px solid var(--c1);
+}
+
+#sec5 h5{
+	color: var(--c3);
+	font-weight: bolder;
+}
+
+button:hover{
+	opacity: 0.8;
+	transition: .5s;
+}
+
+#sec5 .readMore{
+	background-color: var(--c3);
+	border-radius: 15px;
+	transition: .5s;
+	color: var(--c1);
+	border: none;
+}
+
+#sec5 .articele-wrapper{
+/*	border: 1px solid var(--c2);*/
+	box-shadow: 0 5px 10px 10px rgba(0,0,0,0.03);
+}
 
 
 
@@ -336,3 +384,49 @@ ul .active {
 
 
   
+#sec6 p, h2{
+	color: var(--c3);
+}
+
+#sec6 h2{
+	font-weight: bolder;
+}
+
+#se6 .dropdown-toggle{
+	border: 1px solid var(--c2);
+}
+
+.exp{
+	border-radius: 20px;
+	border: 1px solid var(--c3);
+	background: transparent;
+}
+
+
+.test-wrapp{
+	background-color: #ebf3fb;
+	border-radius: 10px;
+}
+
+.quotes{
+	font-size: 4em;
+	color: var(--c3);
+}
+
+.rel-btn{
+	background-color: var(--c1);
+	border-radius: 10px;
+	border: 1px solid var(--c3) !important;
+
+}
+
+#sec7 h2{
+	font-weight: bolder;
+	color: var(--c3);
+}
+
+.map{
+	width: 100%;
+}
+
+

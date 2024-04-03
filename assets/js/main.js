@@ -40,7 +40,7 @@ $(document).ready(function(){
             items:7
         },
         0:{
-          items:3,
+          items:2,
           // nav:true
       }
     }
