@@ -9,9 +9,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style_mobile.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 </head>
 
 <body>
@@ -20,15 +21,36 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-7 col-md-7 intro-box">
-					<h1 class="fs-1">Professor Hedley Emsley</h1>
-					<p class="title">Neurologist in Preston & Lancaster </p>
-					<p style="margin-top: -10px;">MBBS (AIMS), MD, DM </p>
+				<div class="col-lg-4 offset-lg-1 col-md-5 order-lg-2 order-sm-2 img-bg">
+					<img class="img-fluid float-end docimg" src="assets/img/docimg.png" alt="">
+				</div>
+
+				<div class="svg d-block d-sm-none">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+						<path fill="#4c94d3" fill-opacity="1" d="M0,128L80,144C160,160,320,192,480,197.3C640,203,800,181,960,149.3C1120,117,1280,75,1360,53.3L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+					</svg>
+				</div>
+
+				<div class="col-lg-7 col-md-7 intro-box order-lg-1 order-sm-1">
+					<h1 class="fs-1 tc">Professor Hedley Emsley</h1>
+					<p class="title tc">Neurologist in Preston & Lancaster </p>
+					<p style="margin-top: -10px;" class="tc">MBBS (AIMS), MD, DM </p>
+					<div class="d-block d-sm-none" style="margin-top: -20px;">
+						<p class="pt-4 fs-4 m-3 tc">1-800-1234-567 mail@demolink.org</p>
+					</div>
 					<div class="row">
-						<div class="col-sm-7">
-							<button class="btn appbtn rounded-pill mb-2">Make an appointment</button>
-							<p class="pt-4 fs-6 mb-4">1-800-1234-567 <br>mail@demolink.org</p>
-							<div class="rating float-start mb-5" id="rating">
+						<div class="col-sm-7 bg-change">
+
+							<div class="sm-fl">
+								<button class="btn appbtn rounded-pill mb-2 order-lg-2 order-sm-2">Make an appointment</button>
+
+								<button class="whatsappbtn btn mb-2 d-block d-sm-none"><span><i class="fa-brands fa-whatsapp mx-1"></i> </span> <span class="line"></span> <span class="mx-2 fw-bolder">SHARE</span></button>
+							</div>
+
+
+
+							<p class="pt-4 fs-6 mb-4 d-none d-sm-block">1-800-1234-567 <br>mail@demolink.org</p>
+							<div class="rating float-start mb-3 mt-3 order-lg-2 order-sm-2" id="rating">
 								<span class="star" data-value="1">&#9733;</span>
 								<span class="star" data-value="2">&#9733;</span>
 								<span class="star" data-value="3">&#9733;</span>
@@ -37,7 +59,7 @@
 							</div>
 
 						</div>
-						<div class="col-sm-5">
+						<div class="col-sm-5 d-none d-sm-block">
 							<button class="whatsappbtn btn mb-2"><span><i class="fa-brands fa-whatsapp mx-1"></i> </span> <span class="line"></span> <span class="mx-2 fw-bolder">SHARE</span></button>
 							<p class="exp mt-3"><span class="ten">10+ Years</span></p>
 							<p class="fs-5 fw-bold mx-1 mb-4" style="margin-top: -30px;"><span class="ex">Experience</span></p>
@@ -45,31 +67,31 @@
 
 						</div>
 
-						<div class="col-sm-4 mt-2 mb-2">
-							<img class="img-fluid" src="assets/img/logo1.png" alt="">
-						</div>
-						<div class="col-sm-4 mt-2 mb-2">
-							<img class="img-fluid" src="assets/img/logo2.png" alt="">
-						</div>
-						<div class="col-sm-4 mt-2 mb-2">
-							<img class="img-fluid" src="assets/img/logo3.png" alt="">
+						<div class="sm-fl bg-change d-flex">
+							<div class="col-sm-4 mt-2 mb-2 m-2">
+								<img class="img-fluid" src="assets/img/logo1.png" alt="">
+							</div>
+							<div class="col-sm-4 mt-2 mb-2 m-2">
+								<img class="img-fluid" src="assets/img/logo2.png" alt="">
+							</div>
+							<div class="col-sm-4 mt-2 mb-2 m-2">
+								<img class="img-fluid" src="assets/img/logo3.png" alt="">
+							</div>
 						</div>
 
 					</div>
 				</div>
-				<div class="col-lg-4 offset-lg-1 col-md-5">
-					<img class="img-fluid float-end docimg" src="assets/img/docimg.png" alt="">
-				</div>
+
 			</div>
 		</div>
-		
+
 
 	</section>
 
 
 	<section id="sec2" class="pt-5 pb-5">
 		<div class="container">
-			<ul class="nav nav-pills" role="tablist">
+			<ul class="nav nav-pills " role="tablist">
 				<li class="nav-item">
 					<a class="nav-link active fw-bold" data-bs-toggle="pill" href="#overview">Overview</a>
 				</li>
@@ -196,7 +218,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 
@@ -205,9 +227,9 @@
 				<img src="assets/img/video1.png" class="img-fluid" alt="...">
 				<img src="assets/img/video2.png" class="img-fluid" alt="...">
 				<img src="assets/img/video3.png" class="img-fluid" alt="...">
-				<img src="assets/img/video1.png" class="img-fluid" alt="..."> 
+				<img src="assets/img/video1.png" class="img-fluid" alt="...">
 				<img src="assets/img/video2.png" class="img-fluid" alt="...">
-			  </div>
+			</div>
 		</div>
 	</section>
 
@@ -237,32 +259,32 @@
 								<div class="day text-center">MON</div>
 								<div class="date text-center">16</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Tue</div>
 								<div class="date text-center">17</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Wed</div>
 								<div class="date text-center">18</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Thu</div>
 								<div class="date text-center">19</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Fri</div>
 								<div class="date text-center">20</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Sat</div>
 								<div class="date text-center">21</div>
 							</div>
-	
+
 							<div class="date-wrapper">
 								<div class="day text-center">Sun</div>
 								<div class="date text-center">22</div>
@@ -278,7 +300,7 @@
 								<div class="date text-center">24</div>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 
@@ -288,8 +310,8 @@
 						<img src="assets/img/loc.png" class="loc-icon d-block mx-auto" alt="">
 					</div>
 					<div class="col-sm-5 pt-1">
-							<p class="loctext fw-bold fs-5">Clinic One <br><span>51 Goldhill Plaza #19-10/12 Banglore 308900</span></p>
-							
+						<p class="loctext fw-bold fs-5">Clinic One <br><span>51 Goldhill Plaza #19-10/12 Banglore 308900</span></p>
+
 					</div>
 
 
@@ -308,30 +330,27 @@
 					</div>
 
 					<div class="fs-3 pt-5"><b>Evening (5 slots) </b></div>
-					<div class="col-sm-4">
-						<div class="row">
-							<div class="col-sm-4">
-								<button class="ap-book p-3 mt-2"><b>4:00 PM </b></button>
-							</div>
-
-							<div class="col-sm-4">
-								<button class="ap-book p-3 mt-2"><b>4:30 PM </b></button>
-							</div>
-							<div class="col-sm-4">
-								<button class="ap-book p-3 mt-2"><b>5:00 PM </b></button>
-							</div>
-
-							<div class="col-sm-4">
-								<button class="ap-book p-3 mt-2"><b>4:30 PM </b></button>
-							</div>
-							<div class="col-sm-4">
-								<button class="ap-book p-3 mt-2"><b>2:00 PM </b></button>
-							</div>
+					<div class="sm-4">
 
 
+						<ul class="time-wrap">
+							<li class="time">
+								<button class="ap-book p-3 mt-2"><b>4:00 PM</b></button>
+							</li>
+							<li class="time">
+								<button class="ap-book p-3 mt-2"><b>4:30 PM</b></button>
+							</li>
+							<li class="time">
+								<button class="ap-book p-3 mt-2"><b>5:00 PM</b></button>
+							</li>
+							<li class="time">
+								<button class="ap-book p-3 mt-2"><b>4:30 PM</b></button>
+							</li>
+							<li class="time">
+								<button class="ap-book p-3 mt-2"><b>2:00 PM</b></button>
+							</li>
+						</ul>
 
-
-						</div>
 
 					</div>
 
@@ -475,7 +494,7 @@
 		</div>
 	</section>
 
-<section id="sec5" class="">
+	<section id="sec5" class="">
 		<h2 class="text-center">Latest News & Articles</h2>
 		<div class="container">
 			<div class="row">
@@ -699,8 +718,8 @@
 					</div>
 				</div>
 			</div>
- 
-    
+
+
 			<div class="col-sm-12 border border-dark-subtle rounded p-3 mt-5">
 				<button class="exp rounded-pill p-3 me-4 mt-3">All Patient Experiences</button>
 				<button class="exp rounded-pill p-3 me-4 mt-3">brain checks </button>
@@ -712,11 +731,11 @@
 				<button class="exp rounded-pill p-3 me-4 mt-3">proton therapy</button>
 				<button class="exp rounded-pill p-3 me-4 mt-3">cancer and tumors</button>
 				<button class="exp rounded-pill p-3 me-4 mt-3">craniosynostosis</button>
-				
+
 			</div>
 
 		</div>
-	
+
 	</section>
 
 

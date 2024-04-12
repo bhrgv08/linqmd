@@ -121,20 +121,21 @@ section {
 		width: 280px;
 	}
 
-	#sec5 .searchBtn{
-	left: -90px !important;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	#sec5 .searchBtn {
+		left: -90px !important;
+		margin-top: 2px;
+		margin-bottom: 2px;
 
 	}
-  }
+}
+
 @media screen and (max-width: 991px) {
 	.facilities {
 		width: 300px;
 	}
-  }
+}
 
-  
+
 #sec1 .star {
 	font-size: 30px;
 	color: var(--c3);
@@ -184,6 +185,7 @@ section {
 #sec1 .exp .ten {
 	font-size: 1.5em;
 }
+
 #sec1 .ex {
 	font-size: 0.8em;
 }
@@ -221,33 +223,34 @@ ul .active {
 	letter-spacing: 0.5px;
 }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-60%);
-	color:var(--c2);
+	color: var(--c2);
 	font-size: 60px !important;
 	background-color: rgba(255, 255, 255, 0.5);
 	/* padding: 20px; */
 	border-radius: 50%;
-	z-index: 1; 
-  }
+	z-index: 1;
+}
 
-  .owl-prev {
+.owl-prev {
 	left: -35px;
-  }
+}
 
-  .owl-next {
+.owl-next {
 	right: -35px;
-  }
+}
 
 
-#sec3 h2{
+#sec3 h2 {
 	color: var(--c3);
 	font-weight: 800;
 }
 
-#sec3 .date-wrapper{
+#sec3 .date-wrapper {
 	border: 1px solid var(--c4);
 	border-radius: 25px;
 	/* padding: 20px 2px 20px 2px; */
@@ -255,34 +258,35 @@ ul .active {
 	padding-bottom: 20px;
 	cursor: pointer;
 	background-color: var(--c1);
-	transition:.5s;
+	transition: .5s;
 }
 
-#sec3 .date{
+#sec3 .date {
 	font-size: 1.8em;
 	font-weight: bolder;
-	color:var(--c3);
+	color: var(--c3);
 }
 
-#sec3 .day{
+#sec3 .day {
 	font-size: 13px;
 	font-weight: 400;
 	color: var(--c4);
 }
 
-#sec3 .date-wrapper:hover > .day{
+#sec3 .date-wrapper:hover > .day {
 	color: var(--c1);
-	
+
 }
-#sec3 .date-wrapper:hover > .date{
+
+#sec3 .date-wrapper:hover > .date {
 	color: var(--c1);
-	
+
 }
 
 
-#sec3 .date-wrapper:hover{
+#sec3 .date-wrapper:hover {
 	background-color: var(--c3);
-	transition:.5s;
+	transition: .5s;
 }
 
 
@@ -295,7 +299,7 @@ ul .active {
 	margin-left: 30px;
 }
 
-#sec3 .ap-book{
+#sec3 .ap-book {
 	background: transparent;
 	border: 1px solid var(--c3);
 	padding: 10px;
@@ -304,21 +308,35 @@ ul .active {
 }
 
 
-#sec3 .ap-book:hover{
+#sec3 .ap-book:hover {
 	background: var(--c3);
 	color: var(--c1);
 	transition: 300ms;
 }
 
+#sec3 .time-wrap {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	list-style: none;
+	
+}
+
+#sec3 .time {
+	display: inline-flex !important;
+	white-space: nowrap;
+	margin-left: 5px;
+}
 
 
 
-#sec4 h2{
+
+
+#sec4 h2 {
 	color: var(--c3);
 	font-weight: bolder;
 }
 
-#sec4 .facilities{
+#sec4 .facilities {
 	background: var(--c3);
 	border: 1px solid var(--c3);
 	color: var(--c1);
@@ -328,24 +346,24 @@ ul .active {
 	transition: 300ms;
 }
 
-#sec4 .facilities:hover{
+#sec4 .facilities:hover {
 	background: var(--c1);
 	color: var(--c2);
 	transition: 300ms;
 }
 
 
-#sec5 h2{
+#sec5 h2 {
 	color: var(--c3);
 	font-weight: bolder;
 }
 
-#sec5 .search-wrapper{
+#sec5 .search-wrapper {
 	background-color: var(--c3);
-	
+
 }
 
-#sec5 .searchBtn{
+#sec5 .searchBtn {
 	text-align: center;
 	background-color: var(--c3);
 	color: var(--c1);
@@ -354,17 +372,17 @@ ul .active {
 	border: 1px solid var(--c1);
 }
 
-#sec5 h5{
+#sec5 h5 {
 	color: var(--c3);
 	font-weight: bolder;
 }
 
-button:hover{
+button:hover {
 	opacity: 0.8;
 	transition: .5s;
 }
 
-#sec5 .readMore{
+#sec5 .readMore {
 	background-color: var(--c3);
 	border-radius: 15px;
 	transition: .5s;
@@ -372,9 +390,9 @@ button:hover{
 	border: none;
 }
 
-#sec5 .articele-wrapper{
-/*	border: 1px solid var(--c2);*/
-	box-shadow: 0 5px 10px 10px rgba(0,0,0,0.03);
+#sec5 .articele-wrapper {
+	/*	border: 1px solid var(--c2);*/
+	box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.03);
 }
 
 
@@ -383,53 +401,49 @@ button:hover{
 
 
 
-  
-#sec6 p, h2{
+
+#sec6 p,
+h2 {
 	color: var(--c3);
 }
 
-#sec6 h2{
+#sec6 h2 {
 	font-weight: bolder;
 }
 
-#se6 .dropdown-toggle{
+#se6 .dropdown-toggle {
 	border: 1px solid var(--c2);
 }
 
-.exp{
+.exp {
 	border-radius: 20px;
 	border: 1px solid var(--c3);
 	background: transparent;
 }
 
 
-.test-wrapp{
+.test-wrapp {
 	background-color: #ebf3fb;
 	border-radius: 10px;
 }
 
-.quotes{
+.quotes {
 	font-size: 4em;
 	color: var(--c3);
 }
 
-.rel-btn{
+.rel-btn {
 	background-color: var(--c1);
 	border-radius: 10px;
 	border: 1px solid var(--c3) !important;
 
 }
 
-#sec7 h2{
+#sec7 h2 {
 	font-weight: bolder;
 	color: var(--c3);
 }
 
-.map{
+.map {
 	width: 100%;
 }
-
-
-
-
-
