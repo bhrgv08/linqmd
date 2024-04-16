@@ -45,5 +45,42 @@ $(document).ready(function(){
       }
     }
 });
+
+  $('.expslider').owlCarousel({
+    center: true,
+    loop:true,
+    margin:15,
+    responsive:{
+        0:{
+          items:1,
+          // nav:true
+      }
+    }
+  });
+
+  $('.blogslider').owlCarousel({
+    center: true,
+    loop:true,
+    margin:15,
+    responsive:{
+        0:{
+          items:1,
+          // nav:true
+      }
+    }
+  });
+
+  $('.testimonial-slider').owlCarousel({
+    center: true,
+    loop:true,
+    margin:15,
+    responsive:{
+        0:{
+          items:1,
+          // nav:true
+      }
+    }
+  });
+
 });
 
