@@ -318,6 +318,7 @@ ul .active {
 	display: flex !important;
 	flex-wrap: wrap !important;
 	list-style: none;
+	margin-left: -38px;
 	
 }
 
@@ -447,3 +448,62 @@ h2 {
 .map {
 	width: 100%;
 }
+
+
+
+
+
+   
+   .accordion-item {
+	padding: 20px;
+	background: #fff;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+	box-shadow: 0 4px 10px #ede9fe;
+	border: #1391ff 1px solid;
+   }
+   
+   .accordion-item .accordion-label {
+	font-size: 24px;
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	font-weight: 600;
+   }
+   
+   .accordion-item .accordion-label:after {
+	position: absolute;
+	right: 0;
+	content: "+";
+	font-size: 20px;
+	top: 2px;
+	color: #1391ff;
+	width: 16px;
+	height: 16px;
+	border-radius: 100%;
+	line-height: 1;
+	text-align: center;
+   }
+   
+   .accordion-item .accordion-label.cw-open:after {
+	transform: rotate(45deg);
+   }
+   
+   .accordion-item .accordion-content {
+	height: 0px;
+	overflow: hidden;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+   }
+   
+   .accordion-item .cw-open + .accordion-content {
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+   }

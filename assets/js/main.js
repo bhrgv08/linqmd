@@ -84,3 +84,13 @@ $(document).ready(function(){
 
 });
 
+$(".accordion .accordion-item .accordion-label").on("click", function() {
+  let $clickedItem = $(this);
+  
+  if ($clickedItem.hasClass("cw-open")) {
+      $clickedItem.removeClass("cw-open");
+  } else {
+      $(".accordion .accordion-item .accordion-label").removeClass("cw-open");
+      $clickedItem.addClass("cw-open");
+  }
+});
